@@ -21,8 +21,10 @@ param deploySreAgent = true
 param deployActionGroup = true
 
 // AKS Configuration - cost-optimized for demo
-param systemNodeVmSize = 'Standard_D2s_v5'
-param userNodeVmSize = 'Standard_D2s_v5'
+//param systemNodeVmSize = 'Standard_D2s_v5'
+//param userNodeVmSize = 'Standard_D2s_v5'
+param systemNodeVmSize = 'Standard_D2s_v3'
+param userNodeVmSize = 'Standard_D2s_v3'
 param systemNodeCount = 2
 param userNodeCount = 3
 
